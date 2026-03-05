@@ -22,6 +22,8 @@ public class EntityEntity {
             joinColumns = @JoinColumn(name = "child_entity_id"),
             inverseJoinColumns = @JoinColumn(name = "parent_entity_id")
     )
+
+    // The problem: a self referencing entity.
     private EntityEntity parentEntity;
 
 
