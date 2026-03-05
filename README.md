@@ -5,9 +5,7 @@ Run the command :
 mvn spring-boot:process-aot
 
 This should programmatically generate all the bean definitions initially. You will get the following stack trace in the entity when it is mapped to an instance 
-to itself with a join table.
-
-This should programmatically generate all the bean definitions initially. However, when the entity contains a self‑referencing relationship using a join table, the mapping process triggers the following stack trace.
+to itself with a join table. However, when the entity contains a self‑referencing relationship using a join table, the mapping process triggers the following stack trace.
 
 ```text
 Caused by: java.lang.IllegalStateException: PostInitCallback queue could not be processed...
