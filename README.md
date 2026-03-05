@@ -1,4 +1,4 @@
-This is a simple project demonstration an issue we are seeing with Spring Boot 4 and an Entity object referencing itself using native image. This
+This is a simple project demonstrating an issue we are seeing with Spring Boot 4 and an Entity object referencing itself using native image. This
 used to work in Spring Boot 3.
 
 Run the command :
