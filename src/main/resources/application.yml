@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: SpringBootIssue
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
